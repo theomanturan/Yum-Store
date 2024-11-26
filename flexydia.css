@@ -97,7 +97,9 @@
         width: auto;
     }
     
-    
+    .logo {
+        width: auto;
+    }
     
     .socials {
         display: flex;
