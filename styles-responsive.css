@@ -1,0 +1,169 @@
+@media screen and (max-width: 1400px) {
+    .accueil-1-text {
+        font-size: 30px;
+    }
+
+    .accueil-2-div {
+        gap: 30px;
+    }
+
+    .accueil-4-text-2 {
+        padding: 0 150px;
+    }
+
+    .header {
+        padding: 20px 150px;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .contact-1-div {
+        padding: 50px 150px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .accueil-1-div-1 {
+        padding-left: 130px;
+    }
+
+    .logo-2 {
+        width: 250px;
+    }
+
+    .accueil-2-div {
+        gap: 20px;
+    }
+
+    .accueil-2-div img {
+        width: 300px;
+    }
+
+    .accueil-2 {
+        padding-top: 100px;
+    }
+
+    .accueil-4-text-2 {
+        padding: 0 90px;
+    }
+
+    .header {
+        padding: 20px 120px;
+    }
+
+    .contact-1{
+        flex-direction: column;
+    }
+
+    .contact-1-div {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: auto;
+        padding: 50px;
+    }
+
+    .contact-1-h2{
+        order: -1;
+    }
+
+    .contact-1-div-3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-1-div-3 img{
+        width: 70%;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    .header {
+        justify-content: space-between;
+    }
+
+    .accueil-2-titre-2, .accueil-2-text {
+        font-size: 20px;
+    }
+
+    .menu-1-div-2 {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .accueil-2-div {
+        flex-wrap: wrap;
+    }
+
+    .accueil-1-div-1 {
+        padding-left: 50px;
+    }
+
+    .accueil-4-div {
+        gap: 20px;
+    }
+
+    .accueil-4-div img {
+        width: 200px;
+    }
+
+    .menu-1{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        padding: 20px 60px;
+    }
+
+    .accueil-1 {
+        flex-direction: column;
+    }
+
+    .accueil-1-div-1 {
+        text-align: center;
+        padding: 0;
+    }
+
+    .accueil-1-div-2 {
+        display: none;
+    }
+
+    .accueil-2-div img {
+        width: 100%;
+    }
+
+    .accueil-4-text {
+        padding: 0 50px;
+    }
+
+    .accueil-4-div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .accueil-4-div img {
+        width: 100%;
+    }
+
+    .accueil-4-text-2 {
+        padding: 0 50px;
+    }
+
+    .menu-1{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .contact-1-h2 {
+        text-align: center;
+    }
+
+    .contact-1-div{
+        justify-content: center;
+    }
+}

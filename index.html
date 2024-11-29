@@ -1,37 +1,108 @@
-<!doctype html>
-<html lang="fr" xmlns="http://www.w3.org/1999/html">
-
-
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<!DOCTYPE html>
+<html lang="fr">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>flexbox et media queries</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-
-    <link href="flexydia.css" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-responsive.css">
 </head>
 
 <body>
-    <header class="headerFlex">
-        <nav class="navigation centerTool"><span class="info">NAVIGATION</span></nav>
-        <div class="logo centerTool"><span class="info">LOGO</span></div>
-        <div class="socials centerTool"><span class="info">SOCIALS</span></div>
-    </header>
-    <div class="slider centerTool"><span class="info">SLIDER</span></div>
-    <section class="articlesFlex">
-        <article class="articles centerTool"><span class="info">Article 1</span></article>
-        <article class="articles centerTool"><span class="info">Article 2</span></article>
-        <article class="articles centerTool"><span class="info">Article 3</span></article>
-        <article class="articles centerTool"><span class="info">Article 4</span></article>
-        <article class="articles centerTool"><span class="info">Article 5</span></article>
-        <article class="articles centerTool"><span class="info">Article 6</span></article>
-    </section>
-    <footer class="footer centerTool"><span class="info">footer</span></footer>
+    <main>
+        <header class="header">
+            <img class="logo" src="logo-yum-store.png" alt="">
+            <nav class="navigation">
+                <a class="lien-navigation active" href="index.html">Accueil</a>
+                <a class="lien-navigation" href="menu.html">Menu</a>
+                <a class="lien-navigation" href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <section class="accueil-1">
+            <div class="accueil-1-div-1">
+                <h1 class="accueil-1-titre">YUM STORE</h1>
+                <p class="accueil-1-text">Les nouilles les plus yum de tout paris</p>
+                <button class="accueil-1-button">CLICK & COLLECT</button>
+            </div>
+            <div class="accueil-1-div-2">
+                <img class="logo-2" src="logo-yum-store.png" alt="">
+            </div>
+        </section>
+
+        <section class="accueil-2">
+            <h2 class="accueil-2-titre">
+                NOS ADRESSES
+            </h2>
+            <div class="accueil-2-div">
+                <div>
+                    <img src="facade-one.jpg" alt="">
+                    <h3 class="accueil-2-titre-2">Yum Store One</h3>
+                    <p class="accueil-2-text">185 rue de Lancry <br> 75010 Paris</p>
+                </div>
+                <div>
+                    <img src="facade-two.jpg" alt="">
+                    <h3 class="accueil-2-titre-2">Yum Store Two</h3>
+                    <p class="accueil-2-text">350 rue Saint-Guillaume <br> 75007 Paris</p>
+                </div>
+                <div>
+                    <img src="facade-three.jpg" alt="">
+                    <h3 class="accueil-2-titre-2">Yum Store Three</h3>
+                    <p class="accueil-2-text">208 rue au Maire <br> 75003 Paris</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="accueil-3">
+            <h2 class="accueil-3-titre">Commandez maintenant !</h2>
+            <button class="accueil-3-button">COLLECT & CLICK</button>
+        </section>
+
+        <section class="accueil-4">
+            <div>
+                <h2 class="accueil-4-titre">NOTRE SAVOIR-FAIRE</h2>
+                <p class="accueil-4-text">Depuis près de 10ans maintenant, nous partageons avec vous les meilleures
+                    recettes. Nos plats ont tous
+                    été
+                    conçus, et affinés au fil des années et des goûts. Nous vous apportons le meilleur de l'Asie de
+                    l'Est en
+                    plein coeur de Paris. Chaque année, nous reprenons tous nos plats pour les améliorer, les modifier
+                    et
+                    qu'ils
+                    vous plaisent toujours plus. Nous espérons que vous vous régalerez en dégustant nos plats.
+                </p>
+            </div>
+            <div>
+                <h2 class="accueil-4-titre">RETROUVEZ-NOUS SUR LES RÉSEAUX SOCIAUX</h2>
+                <div class="accueil-4-div">
+                    <img class="accueil-4-img" src="biang_biang.jpg" alt="">
+                    <img class="accueil-4-img" src="noodles.jpg" alt="">
+                    <img class="accueil-4-img" src="taiwan_beer.jpg" alt="">
+                    <img class="accueil-4-img" src="chef_making_noodles.jpg" alt="">
+                    <img class="accueil-4-img" src="maneki_neko.jpg" alt="">
+                    <img class="accueil-4-img" src="xiaolongbao.jpg" alt="">
+                </div>
+            </div>
+            <div>
+                <h2 class="accueil-4-titre">CONTACTEZ-NOUS</h2>
+                <p class="accueil-4-text-2">Vous souhaitez nous poser une question, nous faire un feedback, ou tout
+                    simplement
+                    nous contacter? Ecrivez-nous à <b>yum@yum-store.fr</b> ou appelez nous au <b>01 13 86 23 42</b>
+                </p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <img src="logo_instagram.png" alt="">
+            <img src="logo_facebook.png" alt="">
+            <img src="logo_maps.png" alt="">
+        </footer>
+    </main>
 </body>
 
 </html>
